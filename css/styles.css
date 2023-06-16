@@ -16,7 +16,11 @@
   background-color: #0a22f4;
   display: flex;
   justify-content: space-between;
-  padding: 40px 205px 100px 240px;
+  padding: 40px 205px 40px 240px;
+
+  position: sticky;
+  top: 0px;
+  left: 0px;
 }
 
 .nav {
@@ -70,6 +74,7 @@
   padding-right: 240px;
   padding-left: 240px;
   gap: 25px;
+  margin-bottom: 180px;
 }
 
 .article {
